@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>facebook</h1>
+        <form>
+            <label for="email">Email or Phone</label><br>
+            <input type="text" id="email" >
+            <label for="password">Password</label>
+            <input type="password" >
+            <button type="submit">Log In</button><br>
+            <label>
+            <input type="checkbox" >Keep me logged in
+            </label>
+
+        </form>
+    </header>
+
+    <div class="container">
+        <div class="connection">
+            <img src="connection3.png" alt="">
+        </div>
+        
+   
+
+
+<div class="signup">
+    <h1>Sign Up For Facebook</h1>
+    <h3>It's free and always will be.</h3>
+    <form>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <input type="email" placeholder="Re-enter Email" required><br><br>
+        <input type="password" placeholder="New Password" required>
+
+        <h3>Birthday</h3>
+        <select name="Month">
+            <option>Month</option>
+        </select>
+        <select name="Day">
+            <option>Day</option>
+        </select>
+        <select name="Year">
+            <option>Year</option>
+        </select>
+
+        <a href="blank">Why do I need to provide my birthday?</a><br><br>
+        <label>Female</label>
+        <input type="radio" name="a">
+        <label>Male</label>
+        <input type="radio" name="a"> <br>
+        
+        <p>By clicking Sign Up, you agree to our <a href="blank">Terms</a> and that you have read our <a href="blank">Data Use Policy</a>, including our <a href="blank">Cookie Use</a></p>
+
+        <button type="submit"><b>Sign Up</b></button>
+        <hr>
+       <p><a href="blank">Create a Page </a>for a celebrity, band or business.</p>
+    </form>
+</div>
+</div>
+
+
+<div class="footer">
+    <div class="footer-links">
+        <a href="blank">Türce</a>
+        <a href="blank">Kurdi</a>
+        <a href="blank">English(US)</a>
+        <a href="blank">Espanol</a> 
+        <a href="blank">Português (Brasil)</a>
+        <a href="blank">Français (France)</a>
+        <a href="blank">Deutsch</a>
+        <a href="blank">Italiano</a>
+    </div>
+    <hr>
+    <div class="footer-links">
+        <a href="#">Mobile</a>
+        <a href="#">Find Friends</a>
+        <a href="#">Badges</a>
+        <a href="#">People</a>
+        <a href="#">Pages</a>
+        <a href="#">Places</a>
+        <a href="#">Apps</a>
+        <a href="#">Games</a>
+        <a href="#">Music</a>
+    </div>
+    <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Create Ad</a>
+        <a href="#">Create Pages</a>
+        <a href="#">Developers</a>
+        <a href="#">Careers</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Terms</a>
+        <a href="#">Help</a>
+    </div>
+    <p>be.net/m3rt © 2013 <a href="blank">English(US)</a></p>
+</div>
+
+</body>
+</html>
+
+header {
+    background-color: rgb(65, 65, 169);
+    color: white;
+    padding: 0px 70px;
+    font-family: 'Arial', sans-serif;
+    height: 80px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p{
+    font-size: 10px;
+    padding: 0.5px 5px;
+    
+}
+
+
+.signup{
+    
+    padding: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    max-width: 400px;
+    width: 100%;
+    max-width: 50%;
+}
+
+
+.signup button{
+    background: #20ad41;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px; 
+    width: 18%;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+.div{
+    max-width: 50%;
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background: white;
+    text-align: center;
+    font-size: 12px;
+
+}
+.footer a {
+    color: #207bf0;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.footer-links {
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
